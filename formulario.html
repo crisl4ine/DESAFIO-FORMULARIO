@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario-desafio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,800;1,700&display=swap"
+    rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <form action="https://formsubmit.co/crislaine.siqueira1997@gmail.com" method="POST">
+
+
+      <legend class="title-register"> Cadastro </legend>
+
+
+        <label> Nome:
+          <input type="text" name="Nome" placeholder="Nome" />
+        </label>
+
+        <label> E-mail:
+         <input type="email" name="E-mail" placeholder="E-mail" />
+        </label>
+
+        <label>Idade:
+         <input type="number" name="Idade" min="12" />
+        </label>
+
+        <label>Data de Nascimento
+         <input class="label-conta" type="date" />
+        </label>
+
+
+        <label>
+          Sexo
+          <div>
+          <label class="input-inline">
+
+
+          <input type="radio" name="sexo" />
+          Feminino
+        </label>
+
+        <label class="input-inline">
+        <input type="radio" name="sexo" />
+        Masculino
+      </label>
+  </div>
+ 
+
+
+  <label> Onde você possui conta?
+    <div>
+
+      <label class="input-inline">
+        <input type="checkbox" name="instagram" />
+        Instagram
+      </label>
+
+      <label class="input-inline">
+        <input type="checkbox" name="facebook" />
+        Facebook
+      </label>
+
+      <label class="input-inline">
+        <input type="checkbox" name="Youtube" />
+        Youtube
+      </label>
+    </div>
+  </label>
+
+
+
+  <label> Cor dos Olhos
+    <input type="color" name="cor" />
+  </label>
+
+
+  <label>Biografia
+
+    <textarea name=bio></textarea>
+  </label>
+
+
+
+  <label>Foto do Perfil
+
+    <input lass="input-block" type="file" name="foto" accept="foto" />
+  </label>
+
+
+  <label>Telefone
+    <input lass="input-block" type="tel" name="Telefone" />
+  </label>
+
+  <label>Link do Perfil do Facebook </label>
+
+  <input lass="input-block" type="url" name="facebook" />
+  </label>
+
+
+  <label>Senha
+
+    <input class="input-block" type="password" name="senha" placeholder="Password" min="6" max="8" />
+  </label>
+
+
+  <button class="button-clear" type="reset">Reset</button>
+
+  <button class="button-submit" type="submit">Enviar</button>
+
+
+  </form>
+  </div>
+</body>
+
+</html>
